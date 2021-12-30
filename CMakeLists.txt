@@ -384,7 +384,7 @@ add_custom_target(dist COMMAND ${CMAKE_MAKE_PROGRAM} package_source)
 
 export(
     TARGETS
-        ${PDAL_BASE_LIB_NAME} ${PDAL_UTIL_LIB_NAME}
+        ${PDAL_BASE_LIB_NAME} ${PDAL_UTIL_LIB_NAME} ${PDAL_ARBITER_LIB_NAME} ${PDAL_KAZHDAN_LIB_NAME}
     FILE
         "${PDAL_BINARY_DIR}/PDALTargets.cmake")
 
